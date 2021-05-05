@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppGalery.XamarinForms.Paginas.PaginaCarrosel"
+             BarBackgroundColor="Black"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration;assembly=Xamarin.Forms.Core"
+             SelectedTabColor="Red"
+           
+             UnselectedTabColor="White"
+             x:Class="AppGalery.XamarinForms.Paginas.PaginasAbas.Abas"
+         
+            >
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Tab 1" IconImageSource="logo.png" >
+        <StackLayout>
+            <Label Text="01"/>
+        </StackLayout>
+
+    </ContentPage>
+    <ContentPage Title="Tab 2" >
+        <StackLayout>
+            <Label Text="02"/>
+        </StackLayout>
+
+    </ContentPage>
+
+    <ContentPage Title="Tab 3" >
+        <StackLayout>
+            <Label Text="03"/>
+        </StackLayout>
+
+    </ContentPage>
+</TabbedPage>

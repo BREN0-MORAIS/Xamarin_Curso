@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGalery.XamarinForms.Paginas.PaginaDeNavegacao.Conteudo01"
+         
+             Title="Conteudo 01"
+             >
+    <ContentPage.Content>
+        <StackLayout x:Name="EStack">
+            <Label Text="Pagina de Conteudo" Margin="10,20"/>
+            <Button Text="PushAsync - Conteudo2 " BackgroundColor="Blue"  Clicked="AbrirPagina02" />
+            <Button Text="Proximo" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
